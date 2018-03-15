@@ -49,10 +49,6 @@
 	margin-left: 70px;
 }
 
-.row {
-	padding: 0px 120px;
-}
-
 .jumbotron {
 	background-image: url("../assets/programmer.png");
 	max-height: 300px;
