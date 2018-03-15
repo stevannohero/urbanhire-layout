@@ -49,3 +49,30 @@
 	margin-left: 70px;
 }
 
+#profilePic {
+	position: absolute;
+	top: 40px;
+	left: 160px;
+	width: 120px;
+	height: 120px;
+}
+
+.banner {
+	padding-left: 100px;
+}
+
+.blankSide {
+	margin-top: 20px;
+	width: 85%;
+}
+
+.col-8 {
+	position: relative;
+	border: 1px solid #f0f0f0;
+	overflow: hidden;
+}
+
+.col-4 {
+	position: relative;
+	border: 1px solid #f0f0f0;
+}
