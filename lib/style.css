@@ -69,6 +69,18 @@ h4 {
 	padding-top: 120px;
 }
 
+.col-2 {
+	display: inline-flex;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+#editProfileButton {
+	background-color: transparent;
+	margin-left: 600px;
+	font-size: 1.2em;
+}
+
 .col-8 {
 	position: relative;
 	overflow: hidden;
