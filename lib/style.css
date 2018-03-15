@@ -49,16 +49,34 @@
 	margin-left: 70px;
 }
 
-#profilePic {
-	position: absolute;
-	top: 40px;
-	left: 160px;
-	width: 120px;
-	height: 120px;
+.row {
+	padding: 0px 120px;
 }
 
-.banner {
-	padding-left: 100px;
+.jumbotron {
+	background-image: url("../assets/programmer.png");
+	max-height: 300px;
+	color: white;
+}
+
+#ava {
+	width: 120px;
+	position: absolute;
+	top: 20px;
+}
+
+h4 {
+	padding-top: 120px;
+}
+
+.col-8 {
+	position: relative;
+	overflow: hidden;
+}
+
+.col-4 {
+	position: relative;
+	overflow: hidden;
 }
 
 .blankSide {
@@ -66,13 +84,3 @@
 	width: 85%;
 }
 
-.col-8 {
-	position: relative;
-	border: 1px solid #f0f0f0;
-	overflow: hidden;
-}
-
-.col-4 {
-	position: relative;
-	border: 1px solid #f0f0f0;
-}
