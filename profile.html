@@ -83,8 +83,39 @@
 			<img class="blankSide" src="assets/blank.png">
 		</div>
 	</div>
-	<div class="navSide">
-
+	<div class="sidebarNav" id="sideBarOpen">
+		<button class="btn" id="closeClose" onclick="closeSideBar()">
+			<img src="assets/icons/close.png">
+		</button>
+		<div class="upper">
+			<a href="#"><h2>BROWSE JOB</h2></a>
+			<a href="#"><h2>CAREER ADVICE</h2></a>
+			<a href="#"><h2>EMPLOYERS</h2></a>      
+		</div>
+		<ul class="bottom" style="padding-top: 10px">
+			<li><a href="#"><img src="assets/icons/1.png">PROFILE</a></li>
+			<li><a href="#"><img src="assets/icons/2.png">SKILL</a></li>
+			<li><a href="#"><img src="assets/icons/3.png">RESUME</a></li>
+			<li><a href="#"><img src="assets/icons/4.png">CERTIFICATE</a></li>
+			<li><a href="#"><img src="assets/icons/5.png">SAVED JOBS</a></li>
+			<li><a href="#"><img src="assets/icons/6.png">DISMISS JOB</a></li>
+			<li><a href="#"><img src="assets/icons/7.png">APPLIED JOBS</a></li>
+			<li><a href="#"><img src="assets/icons/8.png">JOB ALERT</a></li>
+			<li><a href="#"><img src="assets/icons/9.png">SETTINGS</a></li>
+		</ul>
+		<ul>
+			<li class="signOutButton"><img src="assets/icons/10.png">SIGN OUT</li>
+		</ul>
 	</div>
 </body>
 </html>
+
+<script type="text/javascript">
+	function openSideBar() {
+		document.getElementById("sideBarOpen").style.width = "250px";
+	}
+
+	function closeSideBar() {
+		document.getElementById("sideBarOpen").style.width = "0px";
+	}
+</script>
