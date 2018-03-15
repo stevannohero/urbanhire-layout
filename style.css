@@ -50,7 +50,7 @@
 }
 
 .jumbotron {
-	background-image: url("../assets/programmer.png");
+	background-image: url("assets/programmer.png");
 	max-height: 300px;
 	color: white;
 }
@@ -89,6 +89,6 @@ h4 {
 
 .blankSide {
 	margin-top: 20px;
-	width: 85%;
+	width: 98%;
 }
 
