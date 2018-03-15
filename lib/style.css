@@ -1,0 +1,51 @@
+* {
+	border-radius: 0px !important;
+	outline: none;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+#brand-logo {
+	width: 180px;
+	margin-left: 20px;
+	padding: 17px 0px 17px 0px;
+}
+
+#searchButton {
+	background-color: #3FB6E6;
+	color: white;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+#notifButton {
+	background-color: transparent;
+	position: absolute;
+	right: 60px;
+	bottom: 23px;
+	font-size: 120%;
+}
+
+.badgeNotif {
+	color: white;
+	position: inherit;
+	font-size: 0.5em;
+	background-color: red;
+	padding: 1px 6px 1px 6px;
+	right: 6px;
+	border-radius: 15px !important;
+}
+
+#sideBarButton {
+	background-color: transparent;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	font-size: 140%;
+}
+
+.input-group {
+	margin-left: 70px;
+}
+
