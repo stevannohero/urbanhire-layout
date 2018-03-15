@@ -77,6 +77,10 @@ h4 {
 	font-size: 1.2em;
 }
 
+.row {
+	padding: 0px 120px;
+}
+
 .col-8 {
 	position: relative;
 	overflow: hidden;
@@ -147,7 +151,43 @@ ul {
 	color: #7a7a7a;
 }
 
+.col-3 {
+	min-width: 120px;
+}
+
 #closeClose {
 	background-color: transparent;
 	padding-left: 180px;
+}
+
+@media screen and (max-width: 700px) {
+	#searchJobs {
+		display: none;
+		visibility: hidden;
+	}
+
+	.row {
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.row .col-4 {
+		display: none;
+		height: 0px;
+		width: 0px;
+		margin: 0px;
+	}
+
+	.row .col-8 {
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.jumbotron {
+		white-space: nowrap;
+	}
+
+	.fullProfile {
+		white-space: nowrap;
+	}
 }
