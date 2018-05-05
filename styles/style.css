@@ -50,7 +50,7 @@
 }
 
 .jumbotron {
-	background-image: url("assets/programmer.png");
+	background-image: url("../images/programmer.png");
 	max-height: 300px;
 	color: white;
 }
